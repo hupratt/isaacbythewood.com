@@ -13,7 +13,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>Pinry, a self-hosted Pinterest.</title>
+        <title>Django Feed Enclosures</title>
         <meta name="author" content="Isaac Bythewood"/>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster|Vollkorn:400italic,400"/>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.min.css"/>
@@ -34,14 +34,29 @@
         <h3>Article</h3>
     </div>
     <div class="content">
-        <h1>Pinry, a self-hosted Pinterest.</h1>
-        <h2 class="date">25 Apr 2012 - Releases</h2>
-        <p>Deployable on any platform Pinry provides a great &quot;private&quot; Pinterest
-for you to quickly pin stuff you love online. As usual you can find my
-code on <a class="reference external" href="https://github.com/pinry/pinry">GitHub</a> or you can visit <a class="reference external" href="http://getpinry.com/">http://getpinry.com/</a>.</p>
-<div class="figure">
-<img alt="Pinry's Home Page" src="../../../../images/2012-04-25-pinry-a-self-hosted-pinterest/pinry.jpg" />
-</div>
+        <h1>Django Feed Enclosures</h1>
+        <h2 class="date">30 Apr 2012 - Coding</h2>
+        <p>Are probably one of the most painful things I've worked with because they don't
+properly append the domain name to the enclosure slug which doesn't help anyone
+pulling your feed because they need the full domain name to grab the media. I
+applied a <a class="reference external" href="https://github.com/pinry/pinry/blob/a4f3adc2dfaf6666da53d56df17667e40d6a6daa/pinry/core/feeds.py">hacky fix for it in Pinry</a>.</p>
+<p>Here's a code snippet of what I did:</p>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">django.contrib.syndication.views</span> <span class="kn">import</span> <span class="n">Feed</span>
+<span class="kn">from</span> <span class="nn">django.contrib.sites.models</span> <span class="kn">import</span> <span class="n">get_current_site</span>
+
+<span class="k">class</span> <span class="nc">LatestPins</span><span class="p">(</span><span class="n">Feed</span><span class="p">):</span>
+
+  <span class="n">domain_name</span> <span class="o">=</span> <span class="bp">None</span>
+
+  <span class="k">def</span> <span class="nf">get_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
+     <span class="n">request_type</span> <span class="o">=</span> <span class="s">&#39;http&#39;</span>
+     <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">is_secure</span><span class="p">():</span> <span class="n">request_type</span> <span class="o">=</span> <span class="s">&#39;https&#39;</span>
+     <span class="bp">self</span><span class="o">.</span><span class="n">domain_name</span> <span class="o">=</span> <span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">request_type</span><span class="p">,</span> <span class="s">&#39;://&#39;</span><span class="p">,</span> <span class="n">get_current_site</span><span class="p">(</span><span class="n">request</span><span class="p">)</span><span class="o">.</span><span class="n">domain</span><span class="p">])</span>
+
+  <span class="k">def</span> <span class="nf">item_enclosure_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">item</span><span class="p">):</span>
+     <span class="n">slug</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="n">url</span>
+     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">domain_name</span> <span class="o">+</span> <span class="n">slug</span>
+</pre></div>
 <!-- Links -->
 
     </div>

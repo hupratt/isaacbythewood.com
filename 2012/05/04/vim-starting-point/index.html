@@ -13,7 +13,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>Pinry, a self-hosted Pinterest.</title>
+        <title>VIM Starting Point</title>
         <meta name="author" content="Isaac Bythewood"/>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster|Vollkorn:400italic,400"/>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.min.css"/>
@@ -34,14 +34,28 @@
         <h3>Article</h3>
     </div>
     <div class="content">
-        <h1>Pinry, a self-hosted Pinterest.</h1>
-        <h2 class="date">25 Apr 2012 - Releases</h2>
-        <p>Deployable on any platform Pinry provides a great &quot;private&quot; Pinterest
-for you to quickly pin stuff you love online. As usual you can find my
-code on <a class="reference external" href="https://github.com/pinry/pinry">GitHub</a> or you can visit <a class="reference external" href="http://getpinry.com/">http://getpinry.com/</a>.</p>
-<div class="figure">
-<img alt="Pinry's Home Page" src="../../../../images/2012-04-25-pinry-a-self-hosted-pinterest/pinry.jpg" />
-</div>
+        <h1>VIM Starting Point</h1>
+        <h2 class="date">04 May 2012 - Software</h2>
+        <p>With many of my friends trying to pick up VIM I'd thought I'd
+<a class="reference external" href="https://github.com/overshard/dot-files/tree/master/vim">share my VIM config</a> which is a pretty sane starting point. I don't have a huge
+vimrc and I have some pretty sane plugins. I also have yet to find a color
+scheme that beats Wombat.</p>
+<p>Just one tip for using it, managing nerdtree and tabs are key to my setup you
+can easily swap between the code area and nerdtree using <tt class="docutils literal">ctrl+w w</tt> and
+vice-versa. If you want to open up one of the files in the nerdtree <tt class="docutils literal">enter</tt>
+will pop it open in the current window and <tt class="docutils literal">t</tt> will pop it open in a new tab.
+To get around in tabs I have mapped some custom sane keys:</p>
+<pre class="literal-block">
+&quot; Tab Settings
+map &lt;C-t&gt;t :tabnext&lt;CR&gt;
+map &lt;C-t&gt;l :tabnext&lt;CR&gt;
+map &lt;C-t&gt;h :tabprev&lt;CR&gt;
+</pre>
+<p>This means that you can use <tt class="docutils literal">ctrl+t t</tt> to just hop to the next tab much like
+you hop to the next window/nerdtree with <tt class="docutils literal">ctrl+w w</tt>. Or, you can use
+<tt class="docutils literal">ctrl+t h</tt> and <tt class="docutils literal">ctrl+t l</tt> to get left and right respectively. For those that
+are asking &quot;why h and l&quot; that's because h and l are how you move your cursor
+left and right by default in VIM.</p>
 <!-- Links -->
 
     </div>

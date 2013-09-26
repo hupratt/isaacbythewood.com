@@ -1,119 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Isaac Bythewood</title><link href="http://isaacbythewood.com/" rel="alternate"></link><link href="http://isaacbythewood.com/feeds/all-en.atom.xml" rel="self"></link><id>http://isaacbythewood.com/</id><updated>2013-03-04T00:00:00+01:00</updated><entry><title>Pinry has moved!</title><link href="http://isaacbythewood.com/2013/03/04/pinry-has-moved/" rel="alternate"></link><updated>2013-03-04T00:00:00+01:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-03-04:2013/03/04/pinry-has-moved/</id><summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://bitbucket.org/pinry/pinry"&gt;Pinry on BitBucket (Primary)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/pinry/pinry"&gt;Pinry on GitHub (Mirror)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I would like to give a huge thank you to everyone for your support of Pinry and
-Pinry will continue to grow because of it. Pinry's official v1.0.0 release is
-coming soon/already out with many more features to come. Our current goal is a
-hosted service for Pinry so that you don't have to setup Pinry on your own
-server making it incredibly easy to get started.&lt;/p&gt;
-&lt;p&gt;I never plan to forget that Pinry was built as an open platform, our hosted
-setup may contain a few more features as the simple benefit of us hosting it but
-the core of Pinry will always remain open-source, free, and continuously updated
-because it's exactly what I use in Pinry's hosted environment. There will be
-many great import and export features too so that if someone decides they want
-to move between the platforms it's easy and simple to do. The Pinry Hosted will
-cost a fee but it will be as close to "pay for what you use" as possible, I'm
-not trying to get rich off Pinry I just want to provide a great product, however
-I also don't want it to be a drain on my savings.&lt;/p&gt;
-&lt;p&gt;If you're interested in finding out more I'll be releasing
-&lt;a href="http://getpinry.com/"&gt;getpinry.com&lt;/a&gt; in the coming weeks so please check there
-for more information.&lt;/p&gt;
-&lt;p&gt;Again, thank you everyone for your support!&lt;/p&gt;</summary></entry><entry><title>Getting started with Pelican on GitHub.</title><link href="http://isaacbythewood.com/2012/06/14/getting-started-with-pelican-on-github/" rel="alternate"></link><updated>2012-06-14T00:00:00+02:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-06-14:2012/06/14/getting-started-with-pelican-on-github/</id><summary type="html">&lt;p&gt;Pelican is a static site generator built on Python, here's a simple how-to on
-getting your website started with a custom theme and free hosting on GitHub
-Pages.&lt;/p&gt;
-&lt;h2&gt;What You'll Need&lt;/h2&gt;
-&lt;p&gt;All of the following are the base requirements for using Pelican, I'm not going
-to go into how to get these but you can probably figure it out on your own/via
-Google if you don't already have them.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;git&lt;/li&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;virtualenv (Python package)&lt;/li&gt;
-&lt;li&gt;pip (Python Package)&lt;/li&gt;
-&lt;li&gt;make (Depends on your OS, on Ubuntu it's apart of build-essentials package)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Quickstart&lt;/h2&gt;
-&lt;p&gt;Pelican has an okay quickstart with it's &lt;code&gt;pelican-quickstart&lt;/code&gt; command but this
-doesn't provide many essential settings or setup a custom theme. The best way to
-quickstart is to pull my repo:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="n"&gt;overshard&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;isaacbythewood&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Isaac Bythewood</title><link href="http://isaacbythewood.com/" rel="alternate"></link><link href="http://isaacbythewood.com/feeds/all-en.atom.xml" rel="self"></link><id>http://isaacbythewood.com/</id><updated>2013-09-26T00:00:00-04:00</updated><entry><title>Pinry 1.3 Released</title><link href="http://isaacbythewood.com/2013/09/26/pinry-13-released/" rel="alternate"></link><updated>2013-09-26T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-09-26:2013/09/26/pinry-13-released/</id><summary type="html">&lt;p&gt;I don't often post about releases of stuff I've already released but this
+release is really cool because it's a complete design overhual. Pinry now looks
+fresh as ever and is completely responsive. On top of that we now have some
+&lt;a class="reference external" href="https://pinry.readthedocs.org/"&gt;documentation&lt;/a&gt; and a fresh website and demo at &lt;a class="reference external" href="http://getpinry.com/"&gt;getpinry.com&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="Pinry's Demo Site" src="http://isaacbythewood.com/images/2013-09-26-pinry-1-3-released/pinry.jpg" /&gt;
+&lt;/div&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Payday 2</title><link href="http://isaacbythewood.com/2013/09/17/payday-2/" rel="alternate"></link><updated>2013-09-17T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-09-17:2013/09/17/payday-2/</id><summary type="html">&lt;p&gt;One of the funnest first person shooters I've ever played.*&lt;/p&gt;
+&lt;p&gt;* As long as you have 3 dedicated friends to play it with you. This game gets
+very monotonous very fast if you don't have a group of friends to play with. The
+AI is terrible and it's hard to finish most of the funner missions with them.&lt;/p&gt;
+&lt;p&gt;That being said I did have 3 dedicated friends to play this game with and it was
+great. We've already had hours of fun and will have more in the future. The
+developers seem to update the game often and, while it still feels a bit buggy
+and beta-ish, I feel like they are updating the game and fixing stuff at a
+reasonable rate. I plan on continuing to play this game for many more months.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking it out, &lt;a class="reference external" href="http://store.steampowered.com/app/218620"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Super House of Dead Ninjas</title><link href="http://isaacbythewood.com/2013/05/08/super-house-of-dead-ninjas/" rel="alternate"></link><updated>2013-05-08T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-05-08:2013/05/08/super-house-of-dead-ninjas/</id><summary type="html">&lt;p&gt;An incredible fast paced platformer. You have to fight your way down to the
+bottom of a tower killing monsters, collecting items, and getting upgrades. The
+tower is randomly generated and you get new items everytime. I enjoyed playing
+this game for quite a few hours and could easily get in the groove and zone out.
+A perfect game after a long day's work for me.&lt;/p&gt;
+&lt;p&gt;While I can't highly recommend this game I still think it's a fun time waster
+and worth a few playthroughs, &lt;a class="reference external" href="http://store.steampowered.com/app/224820"&gt;it's on steam&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Super Meat Boy</title><link href="http://isaacbythewood.com/2013/05/08/super-meat-boy/" rel="alternate"></link><updated>2013-05-08T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-05-08:2013/05/08/super-meat-boy/</id><summary type="html">&lt;p&gt;I should have played this game when it was released. It's incredible, I love how
+fast everything is and collecting bandages to unlock all the characters. I also
+can't go without mentioning the soundtrack. It was made by Danny B and fits the
+game amazingly well. If you like a fast paced platformer this is for you.&lt;/p&gt;
+&lt;p&gt;My only complaint are that the leaderboards are full of people who cheated with
+a time of 0.00, if you have friends who play this game you can look at your
+friends leaderboard times but don't bother comparing yourself globally to the
+cheaters.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking it out immediately, &lt;a class="reference external" href="http://store.steampowered.com/app/40800"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Sword of the Stars: The Pit</title><link href="http://isaacbythewood.com/2013/03/25/sword-of-the-stars-the-pit/" rel="alternate"></link><updated>2013-03-25T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-03-25:2013/03/25/sword-of-the-stars-the-pit/</id><summary type="html">&lt;p&gt;A game that you need to stick with to actually enjoy. There is no tutorial and
+it is very hard. You will die. I recommend gathering some recipes in easy mode
+before progressing to harder difficulties. Since The Pit is perma-death you can
+get to the 30th floor and die with the end at the edge of your monitor and you
+will cry because it might take you 20 hours to get there.&lt;/p&gt;
+&lt;p&gt;If you do happen to beat it though it is a very rewarding experience simply
+because of how hard it is. You feel very accomplished.&lt;/p&gt;
+&lt;p&gt;While I can't highly recommend this game I still think it's fun and worth
+beating, &lt;a class="reference external" href="http://store.steampowered.com/app/233700"&gt;it's on steam&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Faster Than Light</title><link href="http://isaacbythewood.com/2012/12/21/faster-than-light/" rel="alternate"></link><updated>2012-12-21T00:00:00-05:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-12-21:2012/12/21/faster-than-light/</id><summary type="html">&lt;p&gt;As a huge SciFi and space exploration fanatic I am unsure why I haven't picked
+this game up before. It's a great example of a simple, straightforward indie
+game that encompasses days of fun.&lt;/p&gt;
+&lt;p&gt;The overall play is basic, you have a ship, you improve your ship with upgrades
+and manage it's systems along with it's crew repair your ship while fighting off
+other ships. Your goal is to get to your home words/base and defend it from the
+&amp;quot;Rebels&amp;quot;. Along the way you have a bunch of mini-quests and save a bunch of
+people of which all are optional.&lt;/p&gt;
+&lt;p&gt;As you beat the game you unlock more ships to start with which have different
+abilities and different playstyles. Each playthrough is semi-randomized giving
+you a unique experience every time. Overall this game goes down as one of the
+best I've ever played, definitely the best indie-game I've ever played.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking it out, &lt;a class="reference external" href="http://store.steampowered.com/app/212680"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>PlanetSide 2</title><link href="http://isaacbythewood.com/2012/12/18/planetside-2/" rel="alternate"></link><updated>2012-12-18T00:00:00-05:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-12-18:2012/12/18/planetside-2/</id><summary type="html">&lt;p&gt;An insanely fun FPS that does the free to play model very well. I've personally
+spent about 120 bucks on this game but have quite a few friends keeping up with
+me who have spent absolutely nothing.&lt;/p&gt;
+&lt;p&gt;Basically think of the game as BF3 but on a massive scale. Some of the mechanics
+aren't as clean as BF3 but the sheer size of the fights you find yourself in
+makes it insanely enjoyable none-the-less.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking it out immediately, &lt;a class="reference external" href="http://store.steampowered.com/app/218230"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Natural Selection 2</title><link href="http://isaacbythewood.com/2012/10/18/natural-selection-2/" rel="alternate"></link><updated>2012-10-18T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-10-18:2012/10/18/natural-selection-2/</id><summary type="html">&lt;p&gt;If you enjoy RTS or FPS this is a great game, if you enjoy both it's the
+greatest game. I really enjoy playing an alien commander and building upgrades
+and bases tossing out cysts everywhere, or playing the extremely team oriented
+marines and helping clear out a hallway of skulks. Lots of fun no matter how you
+play it.&lt;/p&gt;
+&lt;p&gt;Only warning I have is that there is a steep learning curve, don't play
+commander for a while and do play the tutorial, you really need to learn how to
+play it or your team will hate you.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking it out immediately, &lt;a class="reference external" href="http://store.steampowered.com/app/4920"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>django-fresh</title><link href="http://isaacbythewood.com/2012/05/10/django-fresh/" rel="alternate"></link><updated>2012-05-10T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-05-10:2012/05/10/django-fresh/</id><summary type="html">&lt;p&gt;django-fresh will auto-refresh your browser whenever you update to any of the
+files in your project. Very useful for development, not intended for
+production!&lt;/p&gt;
+&lt;div class="section" id="how-it-works"&gt;
+&lt;h2&gt;How It Works&lt;/h2&gt;
+&lt;p&gt;django-fresh injects a small piece of JavaScript into each of your HTML pages
+which will then make the page poll your Django app checking if files were
+changed. If django-fresh sees that you modified a file it will tell the next
+polling to refresh the page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="why"&gt;
+&lt;h2&gt;Why?&lt;/h2&gt;
+&lt;p&gt;Do you like pressing &lt;tt class="docutils literal"&gt;alt+tab&lt;/tt&gt; &lt;tt class="docutils literal"&gt;ctrl+r&lt;/tt&gt; &lt;tt class="docutils literal"&gt;alt+tab&lt;/tt&gt; every time you change
+one line of CSS? I didn't think so.&lt;/p&gt;
+&lt;!-- Links --&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>VIM Starting Point</title><link href="http://isaacbythewood.com/2012/05/04/vim-starting-point/" rel="alternate"></link><updated>2012-05-04T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-05-04:2012/05/04/vim-starting-point/</id><summary type="html">&lt;p&gt;With many of my friends trying to pick up VIM I'd thought I'd
+&lt;a class="reference external" href="https://github.com/overshard/dot-files/tree/master/vim"&gt;share my VIM config&lt;/a&gt; which is a pretty sane starting point. I don't have a huge
+vimrc and I have some pretty sane plugins. I also have yet to find a color
+scheme that beats Wombat.&lt;/p&gt;
+&lt;p&gt;Just one tip for using it, managing nerdtree and tabs are key to my setup you
+can easily swap between the code area and nerdtree using &lt;tt class="docutils literal"&gt;ctrl+w w&lt;/tt&gt; and
+vice-versa. If you want to open up one of the files in the nerdtree &lt;tt class="docutils literal"&gt;enter&lt;/tt&gt;
+will pop it open in the current window and &lt;tt class="docutils literal"&gt;t&lt;/tt&gt; will pop it open in a new tab.
+To get around in tabs I have mapped some custom sane keys:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;quot; Tab Settings
+map &amp;lt;C-t&amp;gt;t :tabnext&amp;lt;CR&amp;gt;
+map &amp;lt;C-t&amp;gt;l :tabnext&amp;lt;CR&amp;gt;
+map &amp;lt;C-t&amp;gt;h :tabprev&amp;lt;CR&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;This means that you can use &lt;tt class="docutils literal"&gt;ctrl+t t&lt;/tt&gt; to just hop to the next tab much like
+you hop to the next window/nerdtree with &lt;tt class="docutils literal"&gt;ctrl+w w&lt;/tt&gt;. Or, you can use
+&lt;tt class="docutils literal"&gt;ctrl+t h&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;ctrl+t l&lt;/tt&gt; to get left and right respectively. For those that
+are asking &amp;quot;why h and l&amp;quot; that's because h and l are how you move your cursor
+left and right by default in VIM.&lt;/p&gt;
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Django Feed Enclosures</title><link href="http://isaacbythewood.com/2012/04/30/django-feed-enclosures/" rel="alternate"></link><updated>2012-04-30T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-04-30:2012/04/30/django-feed-enclosures/</id><summary type="html">&lt;p&gt;Are probably one of the most painful things I've worked with because they don't
+properly append the domain name to the enclosure slug which doesn't help anyone
+pulling your feed because they need the full domain name to grab the media. I
+applied a &lt;a class="reference external" href="https://github.com/pinry/pinry/blob/a4f3adc2dfaf6666da53d56df17667e40d6a6daa/pinry/core/feeds.py"&gt;hacky fix for it in Pinry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here's a code snippet of what I did:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.contrib.syndication.views&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Feed&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.contrib.sites.models&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;get_current_site&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;LatestPins&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Feed&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+  &lt;span class="n"&gt;domain_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+
+  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_object&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+     &lt;span class="n"&gt;request_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;http&amp;#39;&lt;/span&gt;
+     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;is_secure&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt; &lt;span class="n"&gt;request_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https&amp;#39;&lt;/span&gt;
+     &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;domain_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;request_type&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;://&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;get_current_site&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;item_enclosure_url&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+     &lt;span class="n"&gt;slug&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;image&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;
+     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;domain_name&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;slug&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;You now have a fully working Pelican project with many sane settings that you
-can view and modify in the &lt;code&gt;pelicanconf.py&lt;/code&gt; and &lt;code&gt;publishconf.py&lt;/code&gt; files. There
-are some settings you'll need to change like &lt;code&gt;AUTHOR&lt;/code&gt;, &lt;code&gt;SITEURL&lt;/code&gt;, and
-&lt;code&gt;SITENAME&lt;/code&gt;. Peruse my settings and change as needed.&lt;/p&gt;
-&lt;p&gt;You'll then want to setup your &lt;code&gt;virtualenv&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;virtualenv&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;activate&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="n"&gt;requirements&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This will install everything you need work with Pelican. Remember, every time
-you wish to work on your project in the future be sure to run
-&lt;code&gt;source bin/activate&lt;/code&gt; from inside your project's folder, this enables the
-virtual environment we just setup here.&lt;/p&gt;
-&lt;p&gt;To generate/run your project you can use make, I recommend just typing &lt;code&gt;make&lt;/code&gt;
-and you'll see an output of accepted commands, the core commands you'll use are
-&lt;code&gt;make devserver&lt;/code&gt;, &lt;code&gt;make html&lt;/code&gt;, &lt;code&gt;make publish&lt;/code&gt;, and &lt;code&gt;make github&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;To see an example of your site type &lt;code&gt;make html&lt;/code&gt; then &lt;code&gt;make devserver&lt;/code&gt; and you
-can view your site in your browser by visiting
-&lt;a href="http://localhost:8000/"&gt;http://localhost:8000/&lt;/a&gt;. Of course right now it will
-look exactly like my site but that's simply part of changing the theme.&lt;/p&gt;
-&lt;h2&gt;Content&lt;/h2&gt;
-&lt;p&gt;All of the content on your website will be put into the content folder, images
-for posts go in &lt;code&gt;content/images&lt;/code&gt; extras such as &lt;code&gt;favicon.ico&lt;/code&gt; go into
-&lt;code&gt;content/extra&lt;/code&gt; and your posts mostly just go directly into &lt;code&gt;content&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Something you need to change before you push to GitHub is &lt;code&gt;extra/CNAME&lt;/code&gt;. Either
-delete it entirely or change it to your own domain name.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Be sure that if you remove or add extras edit &lt;code&gt;pelicanconf.py&lt;/code&gt; to
-reflect the files removed/added:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;FILES_TO_COPY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;extra/favicon.ico&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;favicon.ico&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;extra/robots.txt&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;robots.txt&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;I don't want to get to in depth about writing posts, just see how I do it as an
-example and go from there. One tip is to link to a file or another post in your
-content use something like &lt;code&gt;|filename|/images/some-post/file.type&lt;/code&gt;.&lt;/p&gt;
-&lt;h2&gt;Theme&lt;/h2&gt;
-&lt;p&gt;Everything for your theme goes in the &lt;code&gt;theme&lt;/code&gt; folder, static files in
-&lt;code&gt;theme/static&lt;/code&gt; and templates into &lt;code&gt;theme/templates&lt;/code&gt;. Use my base templates
-as an example or even better
-&lt;a href="https://github.com/getpelican/pelican/tree/master/pelican/themes/notmyidea"&gt;use Pelicans&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To link to a static file from a template use
-&lt;code&gt;{{ SITEURL }}/theme/static/folder/file.type&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;For more information on variables passed to each pelican template see the
-&lt;a href="http://docs.getpelican.com/en/3.1.1/themes.html#templates-and-variables"&gt;official Pelican documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Getting Everything On GitHub&lt;/h2&gt;
-&lt;p&gt;Once you are happy with your content and theme be sure you create your own
-&lt;a href="https://github.com/new"&gt;GitHub repository&lt;/a&gt;. If you cloned from my repo you'll
-want to delete my origin &lt;code&gt;git remote rm origin&lt;/code&gt; and add yours which GitHub will
-tell you how to do after you create your new repository. From there &lt;code&gt;git push&lt;/code&gt;
-your code to your new repo but this doesn't make your site live. You'll need to
-run the following every time you want to publish new changes to GitHub pages:&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;make&lt;/span&gt; &lt;span class="n"&gt;publish&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;make&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This will create all your output files in a publishable form and then
-automatically create and push your GitHub &lt;code&gt;gh-pages&lt;/code&gt; branch. You can then go
-check your gh-pages online and in about 10 minutes it will be live. If it isn't
-then try doing the above commands again to initiate another build on GitHub's
-servers.&lt;/p&gt;
-&lt;h2&gt;Final Note&lt;/h2&gt;
-&lt;p&gt;I use Markdown as for all my posts but that doesn't mean you have to, Pelican
-supports many different markups the other official one the documentation
-describes is reStructuredText. To use a different markup simply put the type's
-extension on your content post. ex. &lt;code&gt;content/2012-06-14-fancy-post.rst&lt;/code&gt; for
-reStructuredText.&lt;/p&gt;</summary></entry><entry><title>Pinry, a self-hosted Pinterest.</title><link href="http://isaacbythewood.com/2012/04/25/pinry-a-self-hosted-pinterest/" rel="alternate"></link><updated>2012-04-25T00:00:00+02:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-04-25:2012/04/25/pinry-a-self-hosted-pinterest/</id><summary type="html">&lt;p&gt;Deployable on any platform Pinry provides a great "private" Pinterest for you to
-quickly pin stuff you love online. As usual you can find my code on
-&lt;a href="https://github.com/overshard/pinry"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pinry's home page" src="http://isaacbythewood.com/static/images/2012-04-25-pinry-a-self-hosted-pinterest/pinry.jpg" /&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;!-- Links --&gt;
+</summary></entry><entry><title>Pinry, a self-hosted Pinterest.</title><link href="http://isaacbythewood.com/2012/04/25/pinry-a-self-hosted-pinterest/" rel="alternate"></link><updated>2012-04-25T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-04-25:2012/04/25/pinry-a-self-hosted-pinterest/</id><summary type="html">&lt;p&gt;Deployable on any platform Pinry provides a great &amp;quot;private&amp;quot; Pinterest
+for you to quickly pin stuff you love online. As usual you can find my
+code on &lt;a class="reference external" href="https://github.com/pinry/pinry"&gt;GitHub&lt;/a&gt; or you can visit &lt;a class="reference external" href="http://getpinry.com/"&gt;http://getpinry.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="Pinry's Home Page" src="http://isaacbythewood.com/images/2012-04-25-pinry-a-self-hosted-pinterest/pinry.jpg" /&gt;
+&lt;/div&gt;
+&lt;!-- Links --&gt;
+</summary></entry></feed>

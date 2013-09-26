@@ -18,6 +18,12 @@ and beta-ish, I feel like they are updating the game and fixing stuff at a
 reasonable rate. I plan on continuing to play this game for many more months.&lt;/p&gt;
 &lt;p&gt;I highly recommend checking it out, &lt;a class="reference external" href="http://store.steampowered.com/app/218620"&gt;it's on steam&lt;/a&gt;!&lt;/p&gt;
 &lt;!-- Links --&gt;
+</summary></entry><entry><title>vim-eunuch, where have you been?!?!</title><link href="http://isaacbythewood.com/2013/06/13/vim-eunuch-where-have-you-been/" rel="alternate"></link><updated>2013-06-13T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-06-13:2013/06/13/vim-eunuch-where-have-you-been/</id><summary type="html">&lt;p&gt;I can't even begin to tell you how many times I've typed
+&lt;tt class="docutils literal"&gt;vim /etc/some/config/file&lt;/tt&gt;, completed a few changes, hit &lt;tt class="docutils literal"&gt;:w&lt;/tt&gt; and then yell
+in frustration as I forgot to append &lt;tt class="docutils literal"&gt;sudo&lt;/tt&gt; to my vim command. Thank you for
+saving me from that &lt;a class="reference external" href="https://github.com/tpope/vim-eunuch"&gt;vim-eunuch&lt;/a&gt;, all I have to do now is type &lt;tt class="docutils literal"&gt;:SudoWrite&lt;/tt&gt; and
+it will allow me to type in my password and save anyways.&lt;/p&gt;
+&lt;!-- Links --&gt;
 </summary></entry><entry><title>Super House of Dead Ninjas</title><link href="http://isaacbythewood.com/2013/05/08/super-house-of-dead-ninjas/" rel="alternate"></link><updated>2013-05-08T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2013-05-08:2013/05/08/super-house-of-dead-ninjas/</id><summary type="html">&lt;p&gt;An incredible fast paced platformer. You have to fight your way down to the
 bottom of a tower killing monsters, collecting items, and getting upgrades. The
 tower is randomly generated and you get new items everytime. I enjoyed playing

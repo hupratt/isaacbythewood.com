@@ -7,7 +7,7 @@ fresh as ever and is completely responsive. On top of that we now have some
 &lt;img alt="Pinry's Demo Site" src="http://isaacbythewood.com/images/2013-09-26-pinry-1-3-released/pinry.jpg" /&gt;
 &lt;/div&gt;
 &lt;!-- Links --&gt;
-</summary></entry><entry><title>django-fresh</title><link href="http://isaacbythewood.com/2012/05/10/django-fresh/" rel="alternate"></link><updated>2012-05-10T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-05-10:2012/05/10/django-fresh/</id><summary type="html">&lt;p&gt;django-fresh will auto-refresh your browser whenever you update to any of the
+</summary></entry><entry><title>django-fresh, because @#%&amp; refreshing.</title><link href="http://isaacbythewood.com/2012/05/10/django-fresh-because-refreshing/" rel="alternate"></link><updated>2012-05-10T00:00:00-04:00</updated><author><name>Isaac Bythewood</name></author><id>tag:isaacbythewood.com,2012-05-10:2012/05/10/django-fresh-because-refreshing/</id><summary type="html">&lt;p&gt;django-fresh will auto-refresh your browser whenever you update to any of the
 files in your project. Very useful for development, not intended for
 production!&lt;/p&gt;
 &lt;div class="section" id="how-it-works"&gt;
